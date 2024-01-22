@@ -9,7 +9,7 @@ def ask_question(question):
     return response == 'yes'
 
 def main():
-    print("Answer the following questions with 'yes' or 'no' to find out if your experience is a dream, reliving, or confabulation.")
+    print("Answer the following questions with 'yes' or 'no' to find out if your experience is a dreamb or reliving a past memory.")
 
     memory = ask_question("Do you believe this experience is based on a real memory?")
     factual_accuracy = ask_question("Do you believe the facts in this memory are accurate?")

@@ -10,7 +10,7 @@ def main():
     
     memory = ask_question_scale("This experience is based on a real memory.")
     factual_accuracy = ask_question_scale("The facts in this memory are accurate.")
-    reliving = ask_question_scale("I am consciously trying to relive a past experience.")
+    reliving = ask_question_scale("Am I consciously trying to relive a past experience.")
     
     if memory > 3 and factual_accuracy > 3 and reliving < 3:
         print("Your experience seems to be a clear memory.")
